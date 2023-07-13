@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400px;
+}
+
+body {
+  color: white;
+  background-color: #121429;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  padding: 15px;
+}
+
+nav,
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.highlight {
+  background: #121FCF;
+background: linear-gradient(to right, #f374ec, #d06ce6, #ac65de, #865ed5, #5d57c9);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fr {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.fc {
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+}
+
+button {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 30px;
+  display: block;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/* about */
+
+.study-img {
+  width: 400px;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-content {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 390px;
+}
+
+/* tracks */
+
+.center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.track-card {
+  width: 700px;
+  background-image: linear-gradient(
+    to top,
+    #395bd4,
+    #3c5ed5,
+    #3f61d6,
+    #4264d6,
+    #4567d7
+  );
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.track-img {
+  width: 192px;
+  height: auto;
+}
+
+/* nft */
+
+.nft {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+}
+
+.nft-img {
+  width: 540px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.other-img {
+  width: 290px;
+  height: auto;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.joy-img {
+  width: 460px;
+  height: auto;
+}
+
+.win-img {
+  width: 330px;
+  height: auto;
+}
+
+.footer-img {
+  width: 20px;
+  height: 20px;
+}
+
+.learn-card {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to top,
+    #ee3939,
+    #ed543b,
+    #ec6a40,
+    #eb7c49,
+    #e98d54
+  );
+}
+
+.plan {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to top,
+    #18affb,
+    #00bff9,
+    #00cced,
+    #00d8db,
+    #3ee1c6
+  );
+}
+
+.line {
+  position: relative;
+  border-left: 6px solid green;
+  height: 500px;
+  z-index: 10;
+}
+
+.track-div-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+}
+
+.track-div-left {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 150px;
+}
+
+.freshman {
+  border-radius: 20px;
+  max-width: 610px;
+  height: 90px;
+  margin: 10px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right bottom,
+    #ff7500,
+    #ff5045,
+    #ff267b,
+    #ff1fb4,
+    #f049ec
+  );
+}
+
+.sophomore {
+  border-radius: 20px;
+  max-width: 610px;
+  height: 90px;
+  margin: 10px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to top,
+    #39a3ee,
+    #00b9f3,
+    #00cbea,
+    #00dcd7,
+    #54e9bf
+  );
+}
+
+.junior {
+  border-radius: 20px;
+  max-width: 610px;
+  height: 90px;
+  margin: 10px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    #647fdf,
+    #566fe7,
+    #4d5eed,
+    #4d49f1,
+    #542cf1
+  );
+}
+
+.senior {
+  border-radius: 20px;
+  max-width: 610px;
+  height: 90px;
+  margin: 10px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+
+.last-card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 40px 40px 40px;
+  padding: 40px;
+  color: #121429;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to top,
+    #39a3ee,
+    #00b9f3,
+    #00cbea,
+    #00dcd7,
+    #54e9bf
+  );
+}
